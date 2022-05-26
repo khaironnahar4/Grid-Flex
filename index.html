@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Class Project" />
+    <meta name="description" content="This is a class project." />
+    <meta name="keywords" content="class-project, HTML, CSS, bootstrap" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="30 days" />
+    <meta name="author" content="Khairon Nahar" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- align items -->
+
+    <h1>Align Items (Vertical alignment)</h1>
+    <div class="container">
+
+        <div class="row align-items-start area">
+            <div class="col-md">
+                <div class="text">One of Three Columns</div>
+            </div>
+            <div class="col-md">
+                <div class="text">One of Three Columns</div>
+            </div>
+            <div class="col-md">
+                <div class="text">One of Three Columns</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row align-items-center area">
+            <div class="col-md">
+                <div class="text">One of Three Columns</div>
+            </div>
+            <div class="col-md">
+                <div class="text">One of Three Columns</div>
+            </div>
+            <div class="col-md">
+                <div class="text">One of Three Columns</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row align-items-end area">
+            <div class="col-md">
+                <div class="text">One of Three Columns</div>
+            </div>
+            <div class="col-md">
+                <div class="text">One of Three Columns</div>
+            </div>
+            <div class="col-md">
+                <div class="text">One of Three Columns</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- align self -->
+    <h1>Align Self (Vertical alignment)</h1>
+    <div class="container">
+        <div class="row background">
+            <div class="col-md align-self-start">
+                <div class="text">One of Three Columns</div>
+            </div>
+            <div class="col-md align-self-center">
+                <div class="text">One of Three Columns</div>
+            </div>
+            <div class="col-md align-self-end">
+                <div class="text">One of Three Columns</div>
+            </div>
+
+        </div>
+    </div>
+    <!-- justify content -->
+
+    <h1>Justify Content (Horizontal alignment)</h1>
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-md-4">
+                <div class="text">One of Two Columns</div>
+            </div>
+            <div class="col-md-4">
+                <div class="text">One of Two Columns</div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="text">One of Two Columns</div>
+            </div>
+            <div class="col-md-4">
+                <div class="text">One of Two Columns</div>
+            </div>
+        </div>
+
+        <div class="row justify-content-end">
+            <div class="col-md-4">
+                <div class="text">One of Two Columns</div>
+            </div>
+            <div class="col-md-4">
+                <div class="text">One of Two Columns</div>
+            </div>
+        </div>
+
+        <div class="row justify-content-between">
+            <div class="col-md-4">
+                <div class="text">One of Two Columns</div>
+            </div>
+            <div class="col-md-4">
+                <div class="text">One of Two Columns</div>
+            </div>
+        </div>
+
+        <div class="row justify-content-around">
+            <div class="col-md-4">
+                <div class="text">One of Two Columns</div>
+            </div>
+            <div class="col-md-4">
+                <div class="text">One of Two Columns</div>
+            </div>
+        </div>
+
+        <div class="row justify-content-evenly">
+            <div class="col-md-4">
+                <div class="text">One of Two Columns</div>
+            </div>
+            <div class="col-md-4">
+                <div class="text">One of Two Columns</div>
+            </div>
+        </div>
+    </div>
+    <!-- offset -->
+
+    <h1>Offset classes</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="text">One of Two Columns</div>
+            </div>
+            <div class="col-md-4 offset-md-4">
+                <div class="text">One of Two Columns</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 offset-md-3">
+                <div class="text">One of Two Columns</div>
+            </div>
+            <div class="col-md-3 offset-md-3">
+                <div class="text">One of Two Columns</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <div class="text">One of Two Columns</div>
+            </div>
+            <div class="col-md offset-md-7">
+                <div class="text">One of Two Columns</div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- form -->
+
+
+    <h1>Form Layout</h1>
+    <div class="container">
+        <form class="row g-3 needs-validation" novalidate>
+            <!-- first name -->
+            <div class="col-md-6">
+                <label for="first_name" class="form-label">First Name</label>
+                <input type="text" id="first_name" class="form-control first_name" placeholder="Put Your Name Here" name="first_name" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+                <div class="invalid-feedback">
+                    Please put your first name.
+                </div>
+            </div>
+           
+            <!-- last name -->
+            <div class="col-md-6">
+                <label for="last_name" class="form-label">Last Name</label>
+                <input type="text" id="last_name" class="form-control last_name" placeholder="Put Your Name Here" name="last_name" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+                <div class="invalid-feedback">
+                    Please put your last name.
+                </div>
+            </div>
+            <!-- email -->
+            <div class="col-md-12">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control email" id="email" placeholder="Email Address" name="email" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+                <div class="invalid-feedback">
+                    Please put your email.
+                </div>
+            </div>
+            <!-- password -->
+            <div class="col-md-12">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control password" id="password" placeholder="Password" name="password" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+                <div class="invalid-feedback">
+                    Please put a password.
+                </div>
+            </div>
+            <!-- address -->
+            <div class="col-md-12">
+                <label for="address" class="form-label">Address</label>
+                <input type="text" class="form-control address" id="address" placeholder="Your Address" name="address" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+                <div class="invalid-feedback">
+                    Please put your address.
+                </div>
+            </div>
+            <!-- city -->
+            <div class="col-md-6">
+                <label for="city" class="form-label">City</label>
+                <input type="text" class="form-control city" id="city" placeholder="City" name="city" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+                <div class="invalid-feedback">
+                    Please put your city name.
+                </div>
+            </div>
+            <!-- state -->
+            <div class="col-md-4">
+                <label for="state" class="form-label">State</label>
+                <select name="state" id="state" class="form-select">
+                    <option value="Dhaka" selected>Dhaka</option>
+                    <option value="Chattogram">Chattogram</option>
+                    <option value="Khulna">Khulna</option>
+                    <option value="Barishal">Barishal</option>
+                    <option value="Rajshahi">Rajshahi</option>
+                    <option value="Rangpur">Rangpur</option>
+                    <option value="Mymensingh">Mymensingh</option>
+                    <option value="Sylhet">Sylhet</option>
+                </select>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+                <div class="invalid-feedback">
+                    Please put your state name.
+                </div>
+            </div>
+            <!-- zip -->
+            <div class="col-md-2">
+                <label for="zip" class="form-label">Zip</label>
+                <input type="text" class="form-control zip" id="zip" placeholder="Zip" name="zip" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+                <div class="invalid-feedback">
+                    Please put your zip number.
+                </div>
+            </div>
+            <!-- check input -->
+            <div class="col-md-12 g-4">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input check" id="check" name="check">
+                    <label for="check" class="form-check-label">Check me out</label>
+
+                </div>
+            </div>
+            <!-- submit button -->
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-danger">Sign in</button>
+            </div>
+
+        </form>
+    </div>
+
+
+
+
+    <!-- jaca script -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

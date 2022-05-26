@@ -1,0 +1,24 @@
+
+.row {
+    margin: 12px 0;
+}
+.area {
+    height: 100px;
+    border: 1px solid brown;
+}
+.background {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+.text {
+    background-color: rgb(207, 128, 128);
+    color: rgb(235, 235, 235);
+    font-size: 22px;
+    text-align: center;
+    border: 1px solid brown;
+}
+h1 {
+    text-align: center;
+    padding: 30px 0 20px;
+}
